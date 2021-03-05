@@ -1,0 +1,145 @@
+.line{
+  position: absolute;
+  border: 2px solid black;
+  width: 1px;
+  background: black;
+}
+.dot{
+  position: absolute;
+  border: 2px solid black;
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 50%;
+}
+.circle{
+  position: absolute;
+  border: 5px solid black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 160px;
+  left: 370px;
+}
+.oval{
+  position: absolute;
+  border: 5px solid black;
+  width: 90px;
+  height: 120px;
+  border-radius: 50%;
+  top: 150px;
+  left: 220px;
+  transform: rotate(-45deg);
+}
+.eye{
+  position: absolute;
+  border: 5px solid black;
+  background: black;
+  border-radius: 50%;
+  /* transform: rotate(-45deg); */
+}
+.image{
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 5%;
+  top: 440px;
+  left: 100px;
+  width: 200px;
+  /* transform: rotate(-45deg); */
+}
+
+#one{
+
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  transform: rotate(-25deg);
+}
+#two{
+  height: 400px;
+  top: 93px;
+  left: 343px;
+  transform: rotate(90deg);
+}
+#three{
+  height: 80px;
+  top: 230px;
+  left: 575px;
+  transform: rotate(55deg);
+}
+#four{
+  height: 700px;
+  top: 50px;
+  left: 390px;
+  transform: rotate(100deg);
+}
+#five{
+  height: 270px;
+  top: 295px;
+  left: 450px;
+  transform: rotate(10deg);
+}
+#six{
+  height: 275px;
+  top: 295px;
+  left: 391px;
+  transform: rotate(-15deg);
+}
+#seven{
+  height: 275px;
+  top: 517px;
+  left: 330px;
+  transform: rotate(45deg);
+}
+#eight{
+  height: 215px;
+  top: 545px;
+  left: 470px;
+  transform: rotate(-25deg);
+}
+
+#dot_one{
+  top: 325px;
+  left: 419px;
+}
+#dot_two{
+  top: 365px;
+  left: 416px;
+}
+#dot_three{
+  top: 425px;
+  left: 413px;
+}
+#dot_four{
+  top: 468px;
+  left: 410px;
+}
+
+#eye_one{
+  width: 25px;
+  height: 40px;
+  top: 212px;
+  left: 260px;
+  transform: rotate(-15deg);
+}
+#eye_two{
+  width: 20px;
+  height: 30px;
+  top: 208px;
+  left: 415px;
+}
+
+
+
+#curve{
+  /* border: 5px solid black; */
+  border-right: 8px solid black;
+  width: 100px;
+  /* background: black; */
+  position: absolute;
+  height: 568px;
+  top: -100px;
+  left: 280px;
+  transform: rotate(-76deg);
+  border-radius: 50%;
+}
